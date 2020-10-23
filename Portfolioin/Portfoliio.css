@@ -17,7 +17,7 @@
     .backimg-1 {
       width: 100%;
       height: 100vh;
-      background-image: url("../Portfolio/img/Japanzen.jpg");
+      background-image: url("./img/Japanzen.jpg");
       background-position: center top;
       background-size:cover;
       min-height: 100%;
@@ -26,20 +26,20 @@
     
     /* Second image (Portfolio) */
     .bgimg-2 {
-      background-image: url("../Portfolio/img/keyboard.jpg");
+      background-image: url("./img/keyboard.jpg");
       min-height: 400px;
     }
     
     /* Third image (Contact) */
     .backimg-3 {
-      background-image: url("../Portfolio/img/darksetup.jpg");
+      background-image: url("./img/darksetup.jpg");
       min-height: 400px;
       max-width: 100%;
     }
 
     /* Third image (Contact) */
     .backimg-4 {
-      background-image: url("../Portfolio/img/bbl.jpg");
+      background-image: url("./img/bbl.jpg");
       min-height: 400px;
       max-width: 100%;
     }

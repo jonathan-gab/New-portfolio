@@ -4,7 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet"  href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./Portfoliio.css">
+  <link rel="stylesheet" href="./styles.css">
   <script src="https://kit.fontawesome.com/3dd159f7e5.js" crossorigin="anonymous"></script>
 </head>
 
@@ -12,18 +19,6 @@
 
 <body>
 
-  <!DOCTYPE html>
-  <html>
-  <title>W3.CSS Template</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../Portfolio/Portfoliio.css">
-  <link rel="stylesheet" href="../Portfolio/styles.css">
-
-  <body>
 
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
@@ -35,8 +30,12 @@
         <a href="#home" style="color :#000000" class="w3-bar-item w3-button">HOME</a>
         <a href="#about" style="color :#000000" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>
           ABOUT</a>
+          <a href="#skills" style="color :#000000" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-laptop-code"></i>
+          SKILLS</a>
         <a href="#portfolio" style="color :#000000" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>
           PORTFOLIO</a>
+          <a href="#cursus" style="color :#000000" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-graduation-cap"></i>
+          CURSUS</a>
         <a href="#contact" style="color :#000000" class="w3-bar-item w3-button w3-hide-small"><i
             class="fa fa-envelope"></i> CONTACT</a>
         <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
@@ -47,7 +46,9 @@
       <!-- Navbar on small screens -->
       <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
         <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+        <a href="#skills" class="w3-bar-item w3-button" onclick="toggleFunction()">SKILLS</a>
         <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="#cursus" class="w3-bar-item w3-button" onclick="toggleFunction()">CURSUS</a>
         <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
         <a href="#" class="w3-bar-item w3-button">SEARCH</a>
       </div>
@@ -64,95 +65,92 @@
     <div class="w3-content w3-container w3-padding-64" id="about">
       <h3 class="w3-center">ABOUT ME</h3>
       <p class="w3-center"><em>I LOVE WEB DEVELOPPEMENT</em></p>
-      <p>Bonjour/Bonsoir !
 
-        Voici mon premier portfolio. Je l’ai réalisé en Bootstrap.
-
-        Je m’appelle Jonathan Charlet, je suis en actuellement en License Professionnel de développement web Front-end.
-        Je suis passionné par l’informatique et le graphisme, c’est pour cette raison que j’ai voulu allier les deux en
-        poursuivant mes étude dans le développement web. Les jeux vidéo, les mangas et la culture Japonaise dans son
-        ensemble, font aussi parties de mes passions. Durant mes trois années en Informatique j’ai pu apprendre le
-        développement web avec HTML/CSS, ReactJs, PHP, Bootstrap, Java. Mon principal défaut est ma timidité et mes
-        principals qualitées sont, ma rigueur et ma capacité à ne jamais rien abandonner. J’ai pour ambition de créer,
-        dans quelques années, ma propre entreprise.
+      <p>
+       Bonjour/bonsoir ! Voici mon premier portfolio.
+       Je l'ai fait avec Bootstrap.
+       Je m'appelle Jonathan Charlet, je suis actuellement en Licence Professionnelle en Développement Web Front-end.
+       Je suis passionné par l'informatique et le graphisme, c'est pourquoi j'ai voulu combiner les deux, en poursuivant mes études en développement web.
+       Les jeux vidéo, les mangas et la culture japonaise dans son ensemble font également partie de mes passions. 
+       Au cours de mes trois années en informatique, j'ai pu apprendre le développement web avec HTML / CSS, ReactJs, PHP, Bootstrap, Java. 
+       Mon principal défaut est ma timidité et mes principales qualités sont ma rigueur et ma capacité à ne jamais rien abandonner.
+       Mon ambition est de créer ma propre entreprise dans quelques années.
       </p>
       <div class="w3-row">
         <div class="w3-col m6 w3-center w3-padding-large">
           <p><b><i class="fa fa-user w3-margin-right"></i>Jonathan Charlet</b></p><br>
-          <img src="../Portfolio/img/pictureme.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+          <img src="./img/pictureme.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
             alt="" width="500" height="333">
         </div>
 
         <!-- Hide this text on small devices -->
         <div class="w3-col m6 w3-hide-small w3-padding-large">
-          <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-            adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>
+            Bienvenue sur mon site web. 
+            Sur cette page, vous pouvez apprendre qui je suis, mes passions, mon parcours, mes compétences, mes connaissances et les projets que j'ai réalisés.
+            Si vous souhaitez en savoir plus, ou me proposer un entretien, n'hésitez pas à me contacter via la rubrique "Contact".</p>
         </div>
       </div>
-      <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+      
+    </div>
+
+    
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="skills">
+      <h3 class="w3-center">SKILLS</h3>
+      <p class="w3-center"><em>Les langages et outils avec lesquels je travaille.<br></em></p><br>
+      <p class="w3-large w3-center w3-padding-16">Je suis vraiment à l'aise en:</p>
+
+      <p class="w3-wide"><i class="fab fa-html5"></i></i>HTML/CSS</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
       <p class="w3-wide"><i class="fab fa-react"></i></i>ReactJs</p>
       <div class="w3-light-grey">
         <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
       </div>
-      <p class="w3-wide"><i class="fab fa-js"></i></i>HTML/CSS</p>
+      <p class="w3-wide"><i class="fab fa-js"></i></i>Js</p>
       <div class="w3-light-grey">
-        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">80%</div>
       </div>
-      <p class="w3-wide"><i class="fab fa-php"></i></i>PHP</p>
-      <div class="w3-light-grey">
-        <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
-      </div>
-    </div>
-
-
-    <!-- Container (Portfolio Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="portfolio">
-      <h3 class="w3-center">SKILLS</h3>
-      <p class="w3-center"><em>languages that I know<br></em></p><br>
-
+      <br> <br>
       <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
       <div class="w3-row-padding w3-center">
         <div class="w3-col m3">
-          <img src="../Portfolio/img/ReactJslogo.png" style="width:100%" onclick="onClick(this)"
+          <img src="./img/ReactJslogo.png" style="width:100%" onclick="onClick(this)"
             class="w3-hover-opacity" alt="ReactJs">
         </div>
 
         <div class="w3-col m3">
-          <img src="../Portfolio/img/htmlcss.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          <img src="./img/htmlcss.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
             alt="html/css">
         </div>
 
         <div class="w3-col m3">
-          <img src="../Portfolio/img/phplogo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          <img src="./img/phplogo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
             alt="php">
         </div>
 
         <div class="w3-col m3">
-          <img src="../Portfolio/img/jslogo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          <img src="./img/jslogo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
             alt="js">
         </div>
       </div>
 
       <div class="w3-row-padding w3-center w3-section">
         <div class="w3-col m2 center">
-          <img src="../Portfolio/img/pythonlogo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          <img src="./img/pythonlogo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
             alt="python">
         </div>
 
         <div class="w3-col m2">
-          <img src=".//img/Photoshoplogo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          <img src="./img/Photoshoplogo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
             alt="photoshop">
         </div>
       </div>
     </div>
 
-    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+    <!-- <div class="w3-row w3-center w3-dark-grey w3-padding-16">
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge">14+</span><br>
         Partners
@@ -169,25 +167,26 @@
         <span class="w3-xlarge">150+</span><br>
         Meetings
       </div>
-    </div>
+    </div> -->
 
 
     <!-- Second Parallax Image with Portfolio Text -->
-    <div class="bgimg-2 w3-display-container w3-opacity-min">
-      <div class="w3-display-middle">
-        <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
-      </div>
-    </div>
+    
 
 
     <!-- Portfolio section -->
 
     <!-- Portfolio Grid-->
     <section class="page-section bg-light" id="portfolio">
+      <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+          <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+        </div>
+      </div><br>
       <div class="container">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase">MY WORK</h2>
+          <h3 class="section-subheading text-muted">Les projets que j'ai réalisés</h3>
         </div>
         <div class="row">
           <div class="col-lg-4 col-sm-6 mb-4">
@@ -196,7 +195,7 @@
                 <div class="portfolio-hover">
                   <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                 </div>
-                <img class="img-fluid" src="../Portfolio/img/dnasports.png" alt="" />
+                <img class="img-fluid" src="./img/dnasports.png" alt="" />
               </a>
               <div class="portfolio-caption">
                 <div class="portfolio-caption-heading">DNA SPORT</div>
@@ -210,7 +209,7 @@
                 <div class="portfolio-hover">
                   <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                 </div>
-                <img class="img-fluid" src="../Portfolio/img/dnavalue.png" alt="" />
+                <img class="img-fluid" src="./img/dnavalue.png" alt="" />
               </a>
               <div class="portfolio-caption">
                 <div class="portfolio-caption-heading">DNA VALUE</div>
@@ -224,7 +223,7 @@
                 <div class="portfolio-hover">
                   <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                 </div>
-                <img class="img-fluid" src="../Portfolio/img/logoletflix.png" alt="" />
+                <img class="img-fluid" src="./img/logoletflix.png" alt="" />
               </a>
               <div class="portfolio-caption">
                 <div class="portfolio-caption-heading">LETFLIX</div>
@@ -248,18 +247,21 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here-->
                   <h2 class="text-uppercase">DNA SPORTS</h2>
-                  <p class="item-intro text-muted">Page web vitrine.</p>
-                  <img class="img-fluid d-block" src="../Portfolio/img/DNAsports.png" alt="" />
-                  <p>Durant mon stage de fin de deuxième année de DUT, j'ai effectué un stage de deux mois au seins de l'entreprise DNA GA. J'ai développé cette page vitrine en HTML/CSS. Elle avait pour but de présenté l'une des solution que propose l'entreprise. <br> <a href="https://dna-arena.com/">Voir la page</a></p>
+                  <p class="item-intro text-muted">Showcase web page.</p>
+                  <img class="img-fluid d-block" src="./img/dnasports.png" alt="" />
+                  <p>
+                  Lors de mon stage à la fin de la deuxième année de DUT, j'ai effectué un stage de deux mois au sein de l'entreprise DNA GA.
+                  J'ai développé cette page vitrine en HTML / CSS.
+                  Elle visait à présenter l'une des solutions proposées par l'entreprise. <br> <a href="https://dna-arena.com/">Voir la page</a></p>
                   <ul class="mx-auto list-inline">
-                    <li>Start date: July 2020</li>
-                    <li>End date: September 2020</li>
+                    <li>Date de début: July 2020</li>
+                    <li>Date de fin: September 2020</li>
                     <li>Client: DNA GA</li>
                     <li>Category: Page web vitrine</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times mr-1"></i>
-                    Close Project
+                    Clore le projet
                   </button>
                 </div>
               </div>
@@ -279,18 +281,20 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here-->
                   <h2 class="text-uppercase">DNA VALUE</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="..//Portfolio/img/dnavalue.png" alt="" />
-                  <p>Durant mon stage de fin de deuxième année de DUT, j'ai effectué un stage de deux mois au seins de l'entreprise DNA GA. J'ai développé cette page vitrine en ReactJs et HTML/CSS. Elle avait pour but de présenté l'une des solution que propose l'entreprise <br> <a href="https://dna-ga.com/dnavalue">Voir la page</a></p>
+                  <p class="item-intro text-muted">Page web vitrine</p>
+                  <img class="img-fluid d-block mx-auto" src="./img/dnavalue.png" alt="" />
+                  <p>Durant mon stage de fin de deuxième année de DUT, j'ai effectué un stage de deux mois au seins de l'entreprise DNA GA.
+                     J'ai développé cette page vitrine en ReactJs et HTML/CSS. 
+                     Elle avait pour but de présenté l'une des solution que propose l'entreprise <br> <a href="https://dna-ga.com/dnavalue">Voir la page</a></p>
                   <ul class="list-inline">
-                    <li>Start date: July 2020</li>
-                    <li>End date: September 2020</li>
+                    <li>Date de début: July 2020</li>
+                    <li>Date de fin: September 2020</li>
                     <li>Client: DNA GA</li>
                     <li>Category: Page web vitrine</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times mr-1"></i>
-                    Close Project
+                    Clore le Projet
                   </button>
                 </div>
               </div>
@@ -311,17 +315,17 @@
                   <!-- Project Details Go Here-->
                   <h2 class="text-uppercase">LETFLIX</h2>
                   <p class="item-intro text-muted">Application mobile Android</p>
-                  <img class="img-fluid d-block mx-auto" src="../Portfolio/img/logoletflix.png" alt="" />
+                  <img class="img-fluid d-block mx-auto" src="./img/logoletflix.png" alt="" />
                   <p>Durant ma deuxième année de DUT, j'ai eu pour projet de développer une application mobile sous android studio. L'objectif était de développer une application mobile qui répondent à un problème. J'ai donc imaginé LETFLIX. Cette application à pour but de régler un problème qu'entent qu'uilisateur de Netflix j'ai souvent rencontré. En effet, lorsque j'utilise Netflix je me suis rendu compte que moi et beaucoup d'autres utilisateurs, passons généralement beaucoup plus de temps à chercher un programme plutôt qu'a en regardé. LETFLIX (LET pour "laisser" car la doctrine de mon application est "Laisser LETFLIX choisir pour vous) est donc un générateur aléatoire des programmes présents sur Netflix. Différents thèmes sont présent et les utilisateurs peuvent choisir un programme au hasard parmis ces thèmes.</p>
                   <ul class="list-inline">
-                    <li>Start date: July 2020</li>
-                    <li>End date: September 2020</li>
+                    <li>Date de début: July 2020</li>
+                    <li>date de fin: September 2020</li>
                     <li>Client: DNA GA</li>
                     <li>Category: Application mobile</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times mr-1"></i>
-                    Close Project
+                    Clore le  Projet
                   </button>
                 </div>
               </div>
@@ -330,107 +334,12 @@
         </div>
       </div>
     </div>
-    <!-- Modal 4-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="../Portfolio/portfolio/01-full.jpg" alt="" />
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                    expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2020</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times mr-1"></i>
-                    Close Project
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal 5-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="../Portfolio/portfolio/02-full.jpg" alt="" />
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                    expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2020</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times mr-1"></i>
-                    Close Project
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal 6-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <div class="modal-body">
-                  <!-- Project Details Go Here-->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="../Portfolio/portfolio/03-full.jpg" alt="" />
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                    expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2020</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times mr-1"></i>
-                    Close Project
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
 <!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
+<div class="backimg-4 w3-display-container w3-opacity-min">
       <div class="w3-display-middle">
-        <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+        <span class="w3-xxlarge w3-text-white w3-wide">CURSUS</span>
       </div>
     </div>
 
@@ -440,37 +349,37 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Cursus</h2>
-                <h3 class="section-subheading" style="color: #1abc9c">Voici mon cursus. Vous en apprendrez plus sur mon parcours :)</h3>
+                <h3 class="section-subheading" style="color: ">Voici mon cursus.</h3>
             </div>
             <ul class="timeline">
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="../Projet Portfolio template/image/cursus.png" alt="" /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="./img/em.jpg" alt="" /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>Février 2015</h4>
-                            <h4 class="subheading">ENGIE</h4>
+                            <h4>Septembre 2020 à actuellement</h4>
+                            <h4 class="subheading">L'Ecole Multimédia</h4>
                         </div>
-                        <div class="timeline-body"><p style="color: #1abc9c">Écoute téléphonique, création d'un E-learning.  Stage de 3ème ou j'ai participer à la création d'un e-learning et à l'observation d'une écoute téléphonique.</p></div>
+                        <div class="timeline-body"><p style="color: #1abc9c">Bachelor développeur Web front-end en alterance</p></div>
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="../Projet Portfolio template/image/cursus2.jpg" alt="" /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="./img/iut.png" alt="" /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>Aout 2018</h4>
-                            <h4 class="subheading">SERVAIR</h4>
+                            <h4>Septembre 2018 à septembre 2020</h4>
+                            <h4 class="subheading">IUT Sorbonne Paris Nord</h4>
                         </div>
-                        <div class="timeline-body"><p style="color: #1abc9c">Emploi saisonnier dans l'unité Laverie aéroport. Durant cette emplois j'ai appris a travaillé à la chaine.</p></div>
+                        <div class="timeline-body"><p style="color: #1abc9c">DUT Informatique</p></div>
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="../Portfolio/img/jjr.png" alt="" /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="./img/jjr.png" alt="" /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>Février 2019 - Juillet 2019</h4>
-                            <h4 class="subheading">SDBC Ministère des armées</h4>
+                            <h4>Septembre 2015 à juillet 2018</h4>
+                            <h4 class="subheading">Lycée Jean Jacques Rousseau</h4>
                         </div>
-                        <div class="timeline-body"><p style="color: #1abc9c">Emploi vacataire dans l'unité SDBC (médaille de l'armée). J'ai pu approcher de prét des medailles de la legion d'honneur</p></div>
+                        <div class="timeline-body"><p style="color: #1abc9c">Terminal Scientifique spécialisation SVT</p></div>
                     </div>
                 </li>
             </ul>
@@ -489,20 +398,20 @@
     <!-- Container (Contact Section) -->
     <div class="w3-content w3-container w3-padding-64" id="contact">
       <h3 class="w3-center">WHERE I WORK</h3>
-      <p class="w3-center"><em>I'd love your feedback!</em></p>
+      <p class="w3-center"><em>J'attends vos retours !</em></p>
 
       <div class="w3-row w3-padding-32 w3-section">
         <div class="w3-col m4 w3-container">
-          <img src="../Portfolio/img/googlemap.png" class="w3-image w3-round" style="width:100%">
+          <img src="./img/googlemap.png" class="w3-image w3-round" style="width:100%">
         </div>
         <div class="w3-col m8 w3-panel">
           <div class="w3-large w3-margin-bottom">
-            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Ecouen, France<br>
+            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Paris, France<br>
             <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 06.10.59.78.60<br>
             <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
             jonathan.charlet.pro@gmail.com<br>
           </div>
-          <p>A question ?  <i class="fas fa-mouse-pointer"></i></i></i>  Do not hesitate, I will answer it</p>
+          <p>Une question ?  <i class="fas fa-mouse-pointer"></i></i></i>  n'hésitez pas, j'y répondrais.</p>
 
           <?php
             if(isset($_POST['mailform'])) {
