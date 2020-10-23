@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>W3.CSS Template</title>
+  <title>Portfolio Jonathan Charlet</title>
   <meta charset="UTF-8">
 
   <link rel="stylesheet"  href="https://www.w3schools.com/w3css/4/w3.css">
