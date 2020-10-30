@@ -254,8 +254,8 @@
                   J'ai développé cette page vitrine en HTML / CSS.
                   Elle visait à présenter l'une des solutions proposées par l'entreprise. <br> <a href="https://dna-arena.com/">Voir la page</a></p>
                   <ul class="mx-auto list-inline">
-                    <li>Date de début: July 2020</li>
-                    <li>Date de fin: September 2020</li>
+                    <li>Date de début: Juillet 2020</li>
+                    <li>Date de fin: Septembre 2020</li>
                     <li>Client: DNA GA</li>
                     <li>Category: Page web vitrine</li>
                   </ul>
@@ -287,8 +287,8 @@
                      J'ai développé cette page vitrine en ReactJs et HTML/CSS. 
                      Elle avait pour but de présenté l'une des solution que propose l'entreprise <br> <a href="https://dna-ga.com/dnavalue">Voir la page</a></p>
                   <ul class="list-inline">
-                    <li>Date de début: July 2020</li>
-                    <li>Date de fin: September 2020</li>
+                    <li>Date de début: Juillet 2020</li>
+                    <li>Date de fin: Septembre 2020</li>
                     <li>Client: DNA GA</li>
                     <li>Category: Page web vitrine</li>
                   </ul>
@@ -318,9 +318,9 @@
                   <img class="img-fluid d-block mx-auto" src="./img/logoletflix.png" alt="" />
                   <p>Durant ma deuxième année de DUT, j'ai eu pour projet de développer une application mobile sous android studio. L'objectif était de développer une application mobile qui répondent à un problème. J'ai donc imaginé LETFLIX. Cette application à pour but de régler un problème qu'entent qu'uilisateur de Netflix j'ai souvent rencontré. En effet, lorsque j'utilise Netflix je me suis rendu compte que moi et beaucoup d'autres utilisateurs, passons généralement beaucoup plus de temps à chercher un programme plutôt qu'a en regardé. LETFLIX (LET pour "laisser" car la doctrine de mon application est "Laisser LETFLIX choisir pour vous) est donc un générateur aléatoire des programmes présents sur Netflix. Différents thèmes sont présent et les utilisateurs peuvent choisir un programme au hasard parmis ces thèmes.</p>
                   <ul class="list-inline">
-                    <li>Date de début: July 2020</li>
-                    <li>date de fin: September 2020</li>
-                    <li>Client: DNA GA</li>
+                    <li>Date de début: Juillet 2020</li>
+                    <li>date de fin: Septembre 2020</li>
+                    <li>Client: Sorbonne Paris Nord</li>
                     <li>Category: Application mobile</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
